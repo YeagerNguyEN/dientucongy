@@ -13,7 +13,7 @@ header {
   background-color: #009688;
   color: white;
   text-align: center;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 header h1 {
   margin: 0;
@@ -170,4 +170,33 @@ footer {
 }
 p {
   font-size: 20px;
+}
+/* phần dịch vụ */
+.headed {
+  background-color: #009688;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+.containerr {
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 24px; /* khoảng cách đẹp giữa nội dung và viền */
+}
+
+/* Reset cơ bản cho phần tử bên trong */
+.containerr * {
+  box-sizing: border-box;
+  background-color: transparent;
+  margin: 0;
+}
+
+/* Tùy chỉnh phần nội dung bên trong nếu cần */
+.inner-content {
+  padding: 0; /* không cần padding thêm nếu đã có ở .containerr */
 }
